@@ -3,8 +3,8 @@ package br.univali.poo.exerciciosM2.exer02;
 public class Embalagem {
     private Lampada lampada;
 
-    public Embalagem(){
-        this.lampada = null;
+    public Embalagem(Lampada l){
+        this.lampada = l;
     }
 
     public Lampada getLampada() {
